@@ -1,0 +1,254 @@
+/* Main page with stikky-footer */
+html, body {
+  height: 100%;
+  background-color: #0d1117; /* Very dark background */
+  color: #c9d1d9; /* Light text color */
+  font-family: 'Helvetica', sans-serif; /* Font: Helvetica */
+  /* The html and body elements cannot have any padding or margin. */
+  border-top: 3px solid #4caf50; /* Soft GitHub green accent */
+}
+
+/* Wrapper for page content to push down footer */
+#content {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -69px;
+  /* Pad bottom by footer height */
+  padding: 0 0 69px;
+}
+
+#about {
+  font-size: 1.5rem;
+}
+
+/* Navbar styles */
+.navbar .navbar-brand,
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus,
+.navbar .navbar-link,
+.navbar .navbar-link:hover,
+.navbar .navbar-nav > li > a,
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus,
+.navbar .navbar-text,
+.navbar-toggler {
+  color: #c9d1d9; /* Light text color */
+}
+
+.navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus,
+.navbar-nav > .open > a,
+.navbar-nav > .open > a:hover,
+.navbar-nav > .open > a:focus {
+  color: #c9d1d9; /* Light text color */
+  background-color: #161b22; /* Darker background for active state */
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-collapse,
+.navbar-form {
+  border-color: #30363d; /* Darker border color */
+}
+
+@media (max-width: 767px) {
+  .navbar-nav .open .dropdown-menu > li > a {
+    color: #c9d1d9; /* Light text color */
+  }
+
+  .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #c9d1d9; /* Light text color */
+  }
+
+  .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #c9d1d9; /* Light text color */
+    background-color: #161b22; /* Darker background for active state */
+  }
+}
+
+/* Custom page CSS */
+.container {
+  max-width: 800px;
+  text-align: center;
+}
+
+.container a {
+  color: #4caf50; /* Soft GitHub green for links */
+  text-decoration: none;
+}
+
+.container a:hover {
+  color: #388e3c; /* Darker shade of soft green for hover */
+}
+
+.container p img,
+.img-responsive {
+  display: block;
+  height: auto;
+  margin: 2rem auto;
+  max-width: 100%;
+}
+
+.panel {
+  border-style: none;
+}
+
+.panel-body {
+  padding-top: -10px;
+  text-align: left;
+}
+
+.panel h4 {
+  text-align: left;
+  line-height: 24px;
+  font-size: 22px;
+}
+
+.panel h5 {
+  text-align: left;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.panel h6 {
+  font-size: 15px;
+}
+
+.panel h4 a,
+h5 a {
+  color: #4caf50; /* Soft GitHub green for panel links */
+}
+
+.panel h4 a:hover,
+h5 a:hover {
+  color: #388e3c; /* Darker shade of soft green for hover */
+}
+
+.social-links {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 0px;
+  width: 100%;
+  text-align: center;
+  animation: fade 1s ease 1s both;
+}
+
+.social-links li {
+  display: inline-block;
+  padding: 5px;
+  padding-top: 0;
+  text-align: center;
+}
+
+.social-links li a {
+  font-size: 20px;
+  color: #c9d1d9; /* Light text color */
+  padding: 10px;
+  padding-bottom: 4px;
+  transition: all .4s ease;
+}
+
+.social-links li a:hover {
+  color: #4caf50; /* Soft GitHub green for hover */
+}
+
+.avatar {
+  padding-top: 8vh;
+}
+
+
+
+.avatar {
+  padding-top: 8vh;
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+  padding: 5px; /* Space between the image and the border */
+  border: 2px dashed #4caf50; /* Soft green dashed border */
+  border-radius: 50%; /* Make the border circular */
+  width: 150px; /* Adjust width as needed */
+  height: 150px; /* Adjust height as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  background-color: #0d1117; /* Background color to match the theme */
+}
+
+.avatar img {
+  border-radius: 50%; /* Ensure the image itself is circular */
+  width: 100%; /* Make the image cover the circular area */
+  height: 100%; /* Make the image cover the circular area */
+  object-fit: cover; /* Ensure the image covers the circle properly */
+}
+
+/*
+
+.avatar {
+  padding-top: 8vh;
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+  padding: 5px; /* Space between the image and the border */
+  border: 2px dashed #4caf50; /* Soft green dashed border */
+  border-radius: 50%; /* Make the border circular */
+  width: 150px; /* Adjust width as needed */
+  height: 150px; /* Adjust height as needed */
+  background-color: #0d1117; /* Background color to match the theme */
+  margin: 0 auto; /* Center the container horizontally */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.avatar img {
+  border-radius: 50%; /* Ensure the image itself is circular */
+  width: 100%; /* Ensure the image fills the circular container */
+  height: 100%; /* Ensure the image fills the circular container */
+  object-fit: cover; /* Ensure the image covers the circle properly */
+}
+
+*/
+
+
+.blog-title {
+  padding-top: 2px;
+}
+
+.label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.related-posts {
+  border-top: 1px solid #30363d; /* Darker border color */
+  border-bottom: 1px solid #30363d; /* Darker border color */
+}
+
+.related-posts h4 {
+  text-align: center;
+}
+
+.page-not-found {
+  padding-top: 20%;
+}
+
+.disqus {
+  padding-bottom: 15px;
+}
+
+.blogpost {
+  text-align: left;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+/* Footer */
+.footer {
+  border-bottom: 5px solid #4caf50; /* Soft GitHub green accent */
+  padding: 20px 0;
+  text-decoration: none !important;
+}

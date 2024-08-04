@@ -1,0 +1,4 @@
+[submodule "rajeettalkstech/public"]
+	path = rajeettalkstech/public
+	url = https://github.com/rajeettalkstech/rajeettalkstech.github.io.git
+	branch = main
