@@ -19,15 +19,14 @@ aliases = ["migrate-from-jekyl"]
 
 I have edited this file
 
-making changes to check live render
+Can you see my changes again?
 
-doing it a third time
+```bash
+I can basically write any code here
+```
+![hi](/img/image.png)
 
-doing 4th time
 
-Doing 5th time
-
-DOING IT AGAIN
 
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
