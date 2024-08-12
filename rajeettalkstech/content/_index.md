@@ -1,8 +1,11 @@
 ---
 ---
 
-I'm **Rajeet**, a Data Analyst Professional in the marketing domain.
-I love all things computer science and maths.
+Hi, I'm **Rajeet**, a data analyst professional in the advertising domain.
+
+Welcome to my blog!
+
+This is a documentation of my journey through technology, space and time.
 
 Have a look at some of my working [projects].
 
@@ -14,5 +17,5 @@ Contact me at [@username] or by [email].
 
 [projects]: /projects
 [resume]: https://demo.nurlan.co/hugo-vitae/
-[@username]: https://twitter.com/username
-[email]: mailto:email@example.com
+[@username]: https://instagram.com/rajeetgangopadhyay
+[email]: mailto:rajeetgangopadhyay@gmail.com

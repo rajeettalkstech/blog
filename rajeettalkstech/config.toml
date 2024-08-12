@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://rajeettalkstech.github.io/"
 languageCode = "en-US"
 title = "Rajeet Talks Tech"
 # Enable comments by entering your Disqus shortname
@@ -20,13 +20,9 @@ theme = "hugo-sustain"
   custom_js  = []
 
 [params.social]
-  Github        = "username"
-  Email         = "email@example.com"
-  Twitter       = "username"
-  LinkedIn      = "username"
-  Stackoverflow = "username"
-  Medium        = "username"
-  Telegram      = "username"
+  Github        = "https://github.com/rajeettalkstech"
+  Email         = "rajeetgangopadhyay@gmail.com"
+  LinkedIn      = "https://www.linkedin.com/in/rajeet-gangopadhyay-13a538161/"
   RSS           = "/blog/index.xml"
 
 ## Main Menu
